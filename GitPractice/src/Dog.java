@@ -8,4 +8,7 @@ public class Dog {
         this.age = age;
         this.weight = weight;
     }
+
+    public Dog() {
+    }
 }
