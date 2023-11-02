@@ -1,4 +1,6 @@
-public class Dog {
+import entity.Animal;
+
+public class Dog extends Animal {
     private String name;
     private int age;
     private int weight;
@@ -19,5 +21,10 @@ public class Dog {
                ", age=" + age +
                ", weight=" + weight +
                '}';
+    }
+
+    @Override
+    public void run() {
+        System.out.println("Dog is running");
     }
 }
